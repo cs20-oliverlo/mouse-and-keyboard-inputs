@@ -27,3 +27,14 @@ function draw() {
     requestAnimationFrame(draw);
 }
 
+// Event Listeners & Handlers
+document.addEventListener("mousedown", mousedownHandler);
+document.addEventListener("mouseup", mouseupHandler);
+
+function mousedownHandler() {
+    mouseIsPressed = true;
+}
+
+function mouseupHandler() {
+    mouseIsPressed = false;
+}
