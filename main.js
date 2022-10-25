@@ -26,6 +26,7 @@ cnv.height = 400;
 //     ctx.fillStyle = "white";
 //     ctx.fillRect(0, 0, cnv.width, cnv.height); // Background
 
+<<<<<<< HEAD
 //     // Solid Rectangle
 //     ctx.fillStyle = "green";
 //     ctx.fillRect(x, 50, 100, 60);
@@ -157,3 +158,16 @@ cnv.height = 400;
 //         animate = true;
 //     }
 // }
+=======
+// Event Listeners & Handlers
+document.addEventListener("mousedown", mousedownHandler);
+document.addEventListener("mouseup", mouseupHandler);
+
+function mousedownHandler() {
+    mouseIsPressed = true;
+}
+
+function mouseupHandler() {
+    mouseIsPressed = false;
+}
+>>>>>>> aae597863beb794b9bbbc233f46a55c3fd206004
